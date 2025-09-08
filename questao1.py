@@ -1,34 +1,13 @@
-#Gerson bruno 
-
 import os
 os.system("cls")
 
-a = float(input("Digite o numero a : "))
-b = float(input("Digite o numero b"))
-c = float(input("Digite o numero c "))
+a = float(input("Digite o número 'A'."))
+b = float(input("Digite o número 'B'."))
+c = float(input("Digite o número 'C'."))
+soma = a + b
 
-soma = a + b 
+if soma < c:
+    print("A soma'A'+'B' é menor 'C'.")
 
-if soma < c :
-   print(f" a e b e menor q c")
-
-else :
-   print(f"a e b e maior q c")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+else:
+    print("A soma 'A'+'B' é maior que 'C'.")
